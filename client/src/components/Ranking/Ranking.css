@@ -1,0 +1,140 @@
+.ranking-content-box {
+  border-bottom: 1px solid #ccced6;
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  display:flex;
+  align-items:flex-start;
+}
+
+.ranking-news {
+  width: 100%;
+}
+.ranking-box-badge {
+  height: 20px;
+  color: white;
+  font-size: smaller;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 8px;
+  margin-inline: 5px;
+}
+.w-27{
+  width: 27px;
+}
+.ranking-comments {
+  font-size: 11px;
+  margin: 4px;
+  font-weight: bold;
+}
+.title-rank-news {
+  width: 100%;
+  font-size: 15px;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  max-width: 300px;
+}
+.mt-15p
+{
+  margin-top: 15px;
+}
+.comments-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.comments-conuter {
+  display: flex;
+}
+.ranking-content-content-footer {
+  background-color: #f8f9fa;
+}
+.ranking-content-content-footer > i {
+  color: #b9b9b9;
+  font-size: 23px;
+  vertical-align: top;
+}
+.user-profile-holder
+{
+  width: 25px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+.no-rank-msg {
+  min-height: 50vh;
+  width: 100%;
+  color: #0000;
+}
+
+.commentIcon{
+  color: #698ac1;
+  font-size: 14px;
+}
+.channelName{
+  font-weight: 500;
+  color: #698ac1;
+  font-size: 14px;
+}
+.ranking-content-img {
+    position: relative;
+    width: 155px;
+    height: 100px;
+    display: block;
+    background-color: #eee;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #eee;
+}
+
+@media (min-width: 769px) {
+  .ranking-content-img {
+    height: 126px;
+  }
+}
+.ml-24-p
+{
+  margin-left: 24px;
+}
+.rankedNewsComment
+{
+  font-size: small;
+  width: auto;
+  width:100%;
+  margin:0px;
+  display:flex; 
+  align-items:center;
+  justify-content:flex-start;
+  margin: 5px 0px 0px 0px;
+}
+.user-profile-container
+{
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.news-detail-holder
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.ranked-news-comment
+{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
