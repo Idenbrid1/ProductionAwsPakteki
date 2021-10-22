@@ -27,7 +27,7 @@ class Covid extends Component {
         "auth-token": localStorage.getItem("token"),
       },
     };
-    axios.get("http://localhost:5000/api/auth/user", config).then((res) => {
+    axios.get("http://13.114.110.225:5000/api/auth/user", config).then((res) => {
       if (res.data.Message) {
         localStorage.removeItem("token");
         localStorage.removeItem("userData");

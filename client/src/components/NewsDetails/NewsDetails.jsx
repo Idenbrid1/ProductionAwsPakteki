@@ -65,7 +65,7 @@ export default class NewsDetails extends Component {
       },
     };
     await axios
-      .get("http://localhost:5000/api/auth/user", config)
+      .get("http://13.114.110.225:5000/api/auth/user", config)
       .then((res) => {
         if (res.data.Message) {
           localStorage.removeItem("token");

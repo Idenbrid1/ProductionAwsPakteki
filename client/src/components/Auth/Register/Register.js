@@ -19,7 +19,7 @@ export default class Register extends Component {
     e.preventDefault();
     if (this.state.password === this.state.confirmPass) {
       axios
-        .post("http://localhost:5000/api/auth/register", {
+        .post("http://13.114.110.225:5000/api/auth/register", {
           fullName: this.state.fullName,
           username: this.state.username,
           emailAddress: this.state.email,
@@ -29,7 +29,7 @@ export default class Register extends Component {
           if (res.data.Message === "Success") {
             toast.success("Registration Successful");
             axios
-              .post("http://localhost:5000/api/auth/login", {
+              .post("http://13.114.110.225:5000/api/auth/login", {
                 emailAddress: this.state.email,
                 password: this.state.password,
               })
